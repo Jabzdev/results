@@ -23,7 +23,7 @@
   }
   
   .mini-card {
-    background: linear-gradient(hsl(0, 76%, 52%), hsl(326, 74%, 50%));
+    background: linear-gradient(hsl(225, 82%, 54%), hsl(262, 74%, 50%));
     text-align: center;
     width: 320px;
     height: 450px;
@@ -57,12 +57,11 @@
     width: 150px;
     height: 150px; 
     border-radius: 50%; 
-    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(271, 83%, 31%, 0.285));
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsl(262, 74%, 50%));
     position: relative;
     left: 40px;
     color: white;
     margin-bottom: 30px;
-    box-shadow: 3px 3px 10px 4px rgba(215, 171, 13, 0.434);
   }
   
   .circle p {
@@ -246,7 +245,7 @@
     top: -80px;
     left: 678px;
     font-size: 15px;
-    background: hsl(309, 30%, 27%);
+    background: hsl(240, 2%, 25%);
     width: 240px;
     padding: 17px;
     border: none;
@@ -256,10 +255,6 @@
     transition: 0.5s;
   }
 
-  button:hover {
-    background: rgba(60, 205, 82, 0.484);
-    color: black;
-  }
   
   .lightgrey {
     color: rgb(141, 141, 141);
