@@ -3,84 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Results</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <div class="card">
-      <div class="mini-card">
-        <h1>Your Result</h1>
-        <div class="circle">
-          <h2>76</h2>
-          <p>of 100</p>
-        </div>
-        <div class="text">
-          <h3>Great</h3>
-          <p>
-            You scored higher than 65% of the people who have taken these tests.
+      <div class="card-container">
+        <section class="result">
+          <h3 class="title">Your Result</h3>
+          <div class="circle">
+            <h1>76</h1>
+            <p>of 100</p>
+          </div>
+          <b>Great</b>
+          <p class="info">
+            You scored higher than 65% of the people who have taken thest tests.
           </p>
-        </div>
+        </section>
+        <section class="summary">
+          <h3 class="title">Summary</h3>
+          <div class="rows">
+            <div class="row">
+              <div class="badge">
+                <img src="./assets/images/icon-reaction.svg" alt="icon" /><b
+                  >Reaction</b
+                >
+              </div>
+              <p><b>80</b> / 100</p>
+            </div>
+            <div class="row">
+              <div class="badge">
+                <img src="./assets/images/icon-memory.svg" alt="icon" /><b
+                  >Memory</b
+                >
+              </div>
+              <p><b>92</b> / 100</p>
+            </div>
+            <div class="row">
+              <div class="badge">
+                <img src="./assets/images/icon-verbal.svg" alt="icon" /><b
+                  >Verbal</b
+                >
+              </div>
+              <p><b>61</b> / 100</p>
+            </div>
+            <div class="row">
+              <div class="badge">
+                <img src="./assets/images/icon-visual.svg" alt="icon" /><b
+                  >Visual</b
+                >
+              </div>
+              <p><b>72</b> / 100</p>
+            </div>
+          </div>
+          <button class="btn">Continue</button>
+        </section>
       </div>
-
-      <div class="content-card">
-        <h1>Summary</h1>
-
-        <div class="energy">
-          <div class="energy-icon">
-            <img src="images/icon-reaction.svg" alt="reaction" />
-            <p>Reaction</p>
-          </div>
-
-          <div class="energy-range">
-            <p>80</p>
-            <p class="lightgrey">/ 100</p>
-          </div>
-        </div>
-
-        <div class="memory">
-          <div class="memory-icon">
-            <img src="images/icon-memory.svg" alt="memory" />
-            <p>Memory</p>
-          </div>
-
-          <div class="memory-range">
-            <p>92</p>
-            <p class="lightgrey">/ 100</p>
-          </div>
-        </div>
-
-        <div class="verbal">
-          <div class="verbal-icon">
-            <img src="images/icon-verbal.svg" alt="verbal" />
-            <p>Verbal</p>
-          </div>
-
-          <div class="verbal-range">
-            <p>61</p>
-            <p class="lightgrey">/ 100</p>
-          </div>
-        </div>
-
-        <div class="visual">
-          <div class="visual-icon">
-            <img src="images/icon-visual.svg" alt="visual" />
-            <p>Visual</p>
-          </div>
-
-          <div class="visual-range">
-            <p>72</p>
-            <p class="lightgrey">/100</p>
-          </div>
-        </div>
-       </div> 
     </div>
-    <button>Continue</button>
   </body>
 </html>
